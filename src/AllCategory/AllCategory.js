@@ -78,7 +78,7 @@ export default function AllCategory(){
                         <th className="">Region</th>
                         <th className="">Category </th>
                         <th className="">Total Sale</th>
-                        <th className="" className='last-column'></th>
+                        <th className='last-column'></th>
                     </tr>
                 </thead>
                 <tbody>                 

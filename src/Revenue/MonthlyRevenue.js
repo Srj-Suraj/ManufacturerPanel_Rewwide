@@ -1,6 +1,6 @@
 import React from 'react';
 
-import personImg from '../img/s5.jpg';
+// import personImg from '../img/s5.jpg';
 
 const Performance={
     width:'80%',

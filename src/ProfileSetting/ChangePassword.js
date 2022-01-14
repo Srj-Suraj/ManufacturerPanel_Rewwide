@@ -2,7 +2,7 @@ import React from 'react';
 
 
 // img import
-import ProfilePic2 from '../img/Avtar01.jpg';
+// import ProfilePic2 from '../img/Avtar01.jpg';
 
 
 
