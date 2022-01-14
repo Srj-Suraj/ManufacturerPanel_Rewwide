@@ -1,19 +1,21 @@
 {
   "files": {
-    "main.css": "/affiliate_rewwide/static/css/main.953518f8.css",
-    "main.js": "/affiliate_rewwide/static/js/main.c04c33ee.js",
-    "static/media/loginBG.jpg": "/affiliate_rewwide/static/media/loginBG.9f50650294650a5f8640.jpg",
-    "static/media/logo2.png": "/affiliate_rewwide/static/media/logo2.f4cf2e896f6a3e4777bd.png",
-    "static/media/logo.png": "/affiliate_rewwide/static/media/logo.ed4248a43a130deaf7ac.png",
-    "static/media/s5.jpg": "/affiliate_rewwide/static/media/s5.76fe4908ca5060731c05.jpg",
-    "static/media/s4.jpg": "/affiliate_rewwide/static/media/s4.a71870a341f5d235d3d8.jpg",
-    "static/media/Avtar01.jpg": "/affiliate_rewwide/static/media/Avtar01.0ae4baba9e6d4766b198.jpg",
+    "main.css": "/affiliate_rewwide/static/css/main.8448f6d1.chunk.css",
+    "main.js": "/affiliate_rewwide/static/js/main.2d3b3980.chunk.js",
+    "main.js.map": "/affiliate_rewwide/static/js/main.2d3b3980.chunk.js.map",
+    "runtime~main.js": "/affiliate_rewwide/static/js/runtime~main.6c342ca5.js",
+    "runtime~main.js.map": "/affiliate_rewwide/static/js/runtime~main.6c342ca5.js.map",
+    "static/js/2.647d0cb3.chunk.js": "/affiliate_rewwide/static/js/2.647d0cb3.chunk.js",
+    "static/js/2.647d0cb3.chunk.js.map": "/affiliate_rewwide/static/js/2.647d0cb3.chunk.js.map",
     "index.html": "/affiliate_rewwide/index.html",
-    "main.953518f8.css.map": "/affiliate_rewwide/static/css/main.953518f8.css.map",
-    "main.c04c33ee.js.map": "/affiliate_rewwide/static/js/main.c04c33ee.js.map"
-  },
-  "entrypoints": [
-    "static/css/main.953518f8.css",
-    "static/js/main.c04c33ee.js"
-  ]
+    "precache-manifest.e31f5bd85008d980185662ec8c968dc9.js": "/affiliate_rewwide/precache-manifest.e31f5bd85008d980185662ec8c968dc9.js",
+    "service-worker.js": "/affiliate_rewwide/service-worker.js",
+    "static/css/main.8448f6d1.chunk.css.map": "/affiliate_rewwide/static/css/main.8448f6d1.chunk.css.map",
+    "static/media/Avtar01.jpg": "/affiliate_rewwide/static/media/Avtar01.98c434d3.jpg",
+    "static/media/Register.css": "/affiliate_rewwide/static/media/loginBG.51b66497.jpg",
+    "static/media/logo.png": "/affiliate_rewwide/static/media/logo.acc39dc5.png",
+    "static/media/logo2.png": "/affiliate_rewwide/static/media/logo2.84f67884.png",
+    "static/media/s4.jpg": "/affiliate_rewwide/static/media/s4.5fdb28c2.jpg",
+    "static/media/s5.jpg": "/affiliate_rewwide/static/media/s5.a0bd3968.jpg"
+  }
 }
