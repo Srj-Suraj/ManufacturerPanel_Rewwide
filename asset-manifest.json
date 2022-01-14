@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/rewwide_affiliate/static/css/main.711c09c3.css",
-    "main.js": "/rewwide_affiliate/static/js/main.3a52aac7.js",
-    "static/media/loginBG.jpg": "/rewwide_affiliate/static/media/loginBG.9f50650294650a5f8640.jpg",
-    "static/media/logo2.png": "/rewwide_affiliate/static/media/logo2.f4cf2e896f6a3e4777bd.png",
-    "static/media/logo.png": "/rewwide_affiliate/static/media/logo.ed4248a43a130deaf7ac.png",
-    "static/media/s5.jpg": "/rewwide_affiliate/static/media/s5.76fe4908ca5060731c05.jpg",
-    "static/media/s4.jpg": "/rewwide_affiliate/static/media/s4.a71870a341f5d235d3d8.jpg",
-    "static/media/Avtar01.jpg": "/rewwide_affiliate/static/media/Avtar01.0ae4baba9e6d4766b198.jpg",
-    "index.html": "/rewwide_affiliate/index.html",
-    "main.711c09c3.css.map": "/rewwide_affiliate/static/css/main.711c09c3.css.map",
-    "main.3a52aac7.js.map": "/rewwide_affiliate/static/js/main.3a52aac7.js.map"
+    "main.css": "/affiliate_rewwide/static/css/main.953518f8.css",
+    "main.js": "/affiliate_rewwide/static/js/main.c04c33ee.js",
+    "static/media/loginBG.jpg": "/affiliate_rewwide/static/media/loginBG.9f50650294650a5f8640.jpg",
+    "static/media/logo2.png": "/affiliate_rewwide/static/media/logo2.f4cf2e896f6a3e4777bd.png",
+    "static/media/logo.png": "/affiliate_rewwide/static/media/logo.ed4248a43a130deaf7ac.png",
+    "static/media/s5.jpg": "/affiliate_rewwide/static/media/s5.76fe4908ca5060731c05.jpg",
+    "static/media/s4.jpg": "/affiliate_rewwide/static/media/s4.a71870a341f5d235d3d8.jpg",
+    "static/media/Avtar01.jpg": "/affiliate_rewwide/static/media/Avtar01.0ae4baba9e6d4766b198.jpg",
+    "index.html": "/affiliate_rewwide/index.html",
+    "main.953518f8.css.map": "/affiliate_rewwide/static/css/main.953518f8.css.map",
+    "main.c04c33ee.js.map": "/affiliate_rewwide/static/js/main.c04c33ee.js.map"
   },
   "entrypoints": [
-    "static/css/main.711c09c3.css",
-    "static/js/main.3a52aac7.js"
+    "static/css/main.953518f8.css",
+    "static/js/main.c04c33ee.js"
   ]
 }
