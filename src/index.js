@@ -1,43 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-
-// css
 import './index.css';
-
-// components
-import Login from './Login/Login';
-import Register from './Register/Register';
-import SideBar from './Components/SideBar';
-import NavBar from './Components/NavBar';
-// pages
-import AllCategory from './AllCategory/AllCategory';
-import Products from './Products/Products';
-import Transactions from './Transactions/Transactions';
-import ProfileSetting from './ProfileSetting/ProfileSetting';
-import Dashboard from './Dashboard/Dashboard';
-import Revenue from './Revenue/Revenue';
+import App from './App';
+import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
-  <Router>
-      <Routes>
-          <Route path="/" element={<> <Login/> </>} /> 
-          <Route path="/login" element={<> <Login/>  </>}   /> 
-          <Route path="/register" element={<>  <Register/>  </>}   /> 
-
-          <Route path="/all-category" element={<>  <SideBar/> <NavBar/> <AllCategory/> </>}   /> 
-          <Route path="/products" element={<> <SideBar/> <NavBar/> <Products/> </>}   /> 
-          <Route path="/transactions" element={<> <SideBar/> <NavBar/> <Transactions/> </>}   /> 
-          <Route path="/profile-setting" element={<> <SideBar/> <NavBar/> <ProfileSetting/> </>}   /> 
-          <Route path="/dashboard" element={<> <SideBar/> <NavBar/> <Dashboard/> </>}   /> 
-          <Route path="/revenue" element={<> <SideBar/> <NavBar/> <Revenue/> </>}   /> 
-                  
-      </Routes>
-  </Router>
-   
-    
-    ,
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
   document.getElementById('root')
 );
 
-
+// If you want to start measuring performance in your app, pass a function
+// to log results (for example: reportWebVitals(console.log))
+// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+reportWebVitals();
