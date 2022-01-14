@@ -59,25 +59,25 @@ function Login() {
                 </label>
               </div>
 
-              <Link to="/forgot-password" type="button">
+              {/* <Link to="/forgot-password" type="button">
                 Forgot Password
-              </Link>
+              </Link> */}
             </div>
 
-            <Link
+            {/* <Link
               to="/dashboard"
               type="submit"
               className="btn btn-primary pl-5 pr-5"
             >
               Log in
-            </Link>
+            </Link> */}
 
             <div className="d-flex  mt-4">
               <p>Don't Have Account </p>
-              <Link to="/register" type="button" className="ml-2">
+              {/* <Link to="/register" type="button" className="ml-2">
                 
                 Register Now
-              </Link>
+              </Link> */}
             </div>
           </form>
 
