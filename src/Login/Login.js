@@ -22,7 +22,7 @@ function Login() {
       </div>
       <div className='col-md-6 p-4  '>
       <b>Sign in to your account</b>
-{/* 
+
         <form className=''>
           <div className="mb-3 mt-3">
             <label htmlFor="email" className="form-label">Email:</label>
@@ -52,7 +52,7 @@ function Login() {
 
 
         </form>
- */}
+
 
         <button type="button" className="btn btn-light ">
           <i className='fa fa-google' /> Log in with google
