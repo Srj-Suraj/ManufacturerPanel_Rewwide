@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React,  from "react";
 import { Link } from "react-router-dom";
 
 // css
@@ -74,10 +74,9 @@ function Login() {
 
             <div className="d-flex  mt-4">
               <p>Don't Have Account </p>
-              {/* <Link to="/register" type="button" className="ml-2">
-                
+              <Link to="/register" className="btn ml-2">
                 Register Now
-              </Link> */}
+              </Link>
             </div>
           </form>
 
