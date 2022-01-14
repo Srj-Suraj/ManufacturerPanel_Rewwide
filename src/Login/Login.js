@@ -14,7 +14,7 @@ function Login() {
     <div className='row col-md-12 m-0 p-0 loginBG'></div>
     <div className='row col-md-12 m-0 p-0 bgOverlay'></div>
 
-{/*     
+    
     <div className='row midBox col-md-7 p-5 shadow-lg '>
       <div className='col-md-6 text-center d-block p-4'>
           <img src={logo} alt='Rewwide' className='logo mt-4 mb-5'/>
@@ -22,7 +22,7 @@ function Login() {
       </div>
       <div className='col-md-6 p-4  '>
       <b>Sign in to your account</b>
-
+{/* 
         <form className=''>
           <div className="mb-3 mt-3">
             <label htmlFor="email" className="form-label">Email:</label>
@@ -52,7 +52,7 @@ function Login() {
 
 
         </form>
-
+ */}
 
         <button type="button" className="btn btn-light ">
           <i className='fa fa-google' /> Log in with google
@@ -64,7 +64,7 @@ function Login() {
 
       </div>
 
-    </div> */}
+    </div>
 
 
 
