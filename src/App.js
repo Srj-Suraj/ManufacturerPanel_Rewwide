@@ -24,12 +24,12 @@ function App() {
     //   </header>
     // </div>
 
-//     <Router>
-//     <Routes>
-//         <Route path="/" element={<> <Login/> </>} /> 
-    <Login/>
-//     </Routes>
-// </Router>
+        <Router>
+          <Routes>
+            <Route path="/" element={<> <Login/> </>} /> 
+                  {/* <Login/> */}
+          </Routes>
+        </Router>
   );
 }
 
