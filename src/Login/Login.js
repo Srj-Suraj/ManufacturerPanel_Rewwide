@@ -74,7 +74,7 @@ function Login() {
 
             <div className="d-flex  mt-4">
               <p>Don't Have Account </p>
-              <Link to="/register" className="btn ml-2">
+              <Link to="/register" >
                 Register Now
               </Link>
             </div>
