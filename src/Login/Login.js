@@ -23,7 +23,7 @@ function Login() {
       <div className='col-md-6 p-4  '>
       <b>Sign in to your account</b>
 
-        <form className=''>
+        <form >
           <div className="mb-3 mt-3">
             <label htmlFor="email" className="form-label">Email:</label>
             <input type="email" className="form-control" id="email" placeholder="Enter email" name="email" />
@@ -40,7 +40,7 @@ function Login() {
                 </label>
               </div>
             
-            <Link to='' type="button" >Forgot Password</Link>
+            <Link to='/forgot-password' type="button" >Forgot Password</Link>
           </div>
 
           <Link to='/dashboard' type="submit"  className="btn btn-primary pl-5 pr-5">Log in</Link>
