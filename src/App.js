@@ -1,11 +1,25 @@
 import logo from './logo.svg';
 import './App.css';
 
-import {BrowserRouter as Router } from 'react-router-dom';
-import { Routes,Route } from 'react-router';
+import {Router,Route,Outlet, ReactLocation} from 'react-location';
 
 import Login from './Login/Login';
 import Page from './Login/Page';
+
+export const routes:Route[] =[
+  {
+    path:"/",
+    element:<Login/>,
+  },
+  {
+    path:"/page",
+    element:<><Page/><Login/></>,
+  },
+];
+
+
+
+const location = new ReactLocation();
 
 function App() {
   return (
@@ -27,11 +41,8 @@ function App() {
     //   </header>
     // </div>
 
-        <Router>
-          <Routes>
-            <Route path="/" element={<> <Login/> </>} /> 
-            <Route path="/page" element={<> <Page/> </>} /> 
-          </Routes>
+        <Router routes={routes} location={location}>
+          <Outlet  />
         </Router>
 
         // <Login/>

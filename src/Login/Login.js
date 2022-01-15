@@ -10,10 +10,8 @@ import logo from "../img/logo.png";
 function Login() {
   return (
     <>
-      <div className="row col-md-12 m-0 p-0 loginBG"></div>
-      <div className="row col-md-12 m-0 p-0 bgOverlay"></div>
 
-      <div className="row midBox col-md-7 p-5 shadow-lg ">
+      <div className="row  col-md-7 p-5 shadow-lg ">
         <div className="col-md-6 text-center d-block p-4">
           <img src={logo} alt="Rewwide" className="logo mt-4 mb-5" />
           <h5>Welcome to Rewwide</h5>
