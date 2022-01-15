@@ -18,9 +18,9 @@ import Dashboard from './Dashboard/Dashboard';
 import Revenue from './Revenue/Revenue';
 
 ReactDOM.render(
-  <Router basename="/products">
+  <Router basename="/">
     <Routes>
-          <Route path="/" element={ <Login/> } /> 
+          <Route path="/" exact element={ <Login/> } /> 
           <Route path="/login" element={ <Login/>  }   /> 
           <Route path="/register" element={  <Register/>  }   /> 
 
