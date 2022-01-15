@@ -1,8 +1,6 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 
-import SideBar from '../Components/SideBar';
-import NavBar from '../Components/NavBar';
 // css
 import './allCategory.css';
 
@@ -16,7 +14,7 @@ import personImg from '../img/s4.jpg';
 export default function AllCategory(){
     return(
         <>
-        <SideBar/> <NavBar/>
+        
        
         <div className="container" >
 
