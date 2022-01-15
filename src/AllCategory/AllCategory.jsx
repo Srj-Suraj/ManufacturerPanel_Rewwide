@@ -1,8 +1,8 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 
-import SideBar from './Components/SideBar';
-import NavBar from './Components/NavBar';
+import SideBar from '../Components/SideBar';
+import NavBar from '../Components/NavBar';
 // css
 import './allCategory.css';
 
