@@ -22,13 +22,13 @@ import Revenue from './Revenue/Revenue';
 
 ReactDOM.render(
   <Router basename="/">
-    <SideBar/> <NavBar/>
+    <SideBar/> <NavBar/> 
     <Routes>
           {/* <Route path="/" exact element={ <Login/> } /> 
           <Route path="/login" element={ <Login/>  }   /> 
           <Route path="/register" element={  <Register/>  }   />  */}
 
-          <Route path="/" element={ <Dashboard/> }   /> 
+          <Route path="/" exact element={ <Dashboard/> }   /> 
           <Route path="/dashboard" element={ <Dashboard/> }   /> 
           <Route path="/all-category" element={ <AllCategory/> }   /> 
           <Route path="/products" element={ <Products/> }   /> 
