@@ -1,9 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
 
-import {BrowserRouter as Router, Routes,Route } from 'react-router-dom';
+import {BrowserRouter as Router } from 'react-router-dom';
+import { Routes,Route } from 'react-router';
 
 import Login from './Login/Login';
+import Page from './Login/Page';
 
 function App() {
   return (
@@ -26,9 +28,10 @@ function App() {
     // </div>
 
         <Router>
-          {/* <Routes> */}
+          <Routes>
             <Route path="/" element={<> <Login/> </>} /> 
-          {/* </Routes> */}
+            <Route path="/page" element={<> <Page/> </>} /> 
+          </Routes>
         </Router>
 
         // <Login/>
