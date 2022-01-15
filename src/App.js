@@ -1,10 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
 
-// import {BrowserRouter as Router, Routes } from 'react-router-dom';
-import { Route } from 'react-router';
-import { Router } from 'react-router';
-import { Routes } from 'react-router';
+import {BrowserRouter as Router, Routes,Route } from 'react-router-dom';
+
 import Login from './Login/Login';
 
 function App() {
