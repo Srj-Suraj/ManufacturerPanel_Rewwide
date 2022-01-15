@@ -9,8 +9,6 @@ import './index.css';
 // components
 import Login from './Login/Login';
 import Register from './Register/Register';
-import SideBar from './Components/SideBar';
-import NavBar from './Components/NavBar';
 // pages
 import AllCategory from './AllCategory/AllCategory';
 import Products from './Products/Products';
@@ -22,21 +20,16 @@ import Revenue from './Revenue/Revenue';
 ReactDOM.render(
   <Router basename="/">
     <Routes>
-                      {/* <Route path="/" element={<Home />} />
-                      <Route path="/about" element={<About />} />
-                      <Route path="/contact" element={<Contact />} /> */}
+          <Route path="/" element={ <Login/> } /> 
+          <Route path="/login" element={ <Login/>  }   /> 
+          <Route path="/register" element={  <Register/>  }   /> 
 
-      
-          <Route path="/" element={<> <Login/> </>} /> 
-          <Route path="/login" element={<> <Login/>  </>}   /> 
-          <Route path="/register" element={<>  <Register/>  </>}   /> 
-
-          <Route path="/all-category" element={<>  <SideBar/> <NavBar/> <AllCategory/> </>}   /> 
-          <Route path="/products" element={<> <SideBar/> <NavBar/> <Products/> </>}   /> 
-          <Route path="/transactions" element={<> <SideBar/> <NavBar/> <Transactions/> </>}   /> 
-          <Route path="/profile-setting" element={<> <SideBar/> <NavBar/> <ProfileSetting/> </>}   /> 
-          <Route path="/dashboard" element={<> <SideBar/> <NavBar/> <Dashboard/> </>}   /> 
-          <Route path="/revenue" element={<> <SideBar/> <NavBar/> <Revenue/> </>}   /> 
+          <Route path="/all-category" element={ <AllCategory/> }   /> 
+          <Route path="/products" element={ <Products/> }   /> 
+          <Route path="/transactions" element={ <Transactions/> }   /> 
+          <Route path="/profile-setting" element={ <ProfileSetting/> }   /> 
+          <Route path="/dashboard" element={ <Dashboard/> }   /> 
+          <Route path="/revenue" element={ <Revenue/> }   /> 
                   
     </Routes>
     
