@@ -10,7 +10,7 @@ export const routes:Route[] =[
   {
     path:"/",
     element:<Login/>,
-    
+
   },
   {
     path:"/page",
