@@ -1,0 +1,29 @@
+/* Profile*/ 
+.Profile{
+    display: flex;
+    align-items: center;
+}
+.userDP{
+    height: 100px;
+    width: 100px;
+    margin-right: 5px;
+    border-radius: 50px;
+    box-sizing: border-box;
+}
+.userName{
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    color: #192A3E;
+}
+.userStatus{
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #90A0B7;
+
+}
