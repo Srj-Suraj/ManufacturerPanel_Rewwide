@@ -21,7 +21,7 @@ import Revenue from './Revenue/Revenue';
 
 ReactDOM.render(
   <Router basename="/">
-    {/* <Navigation /> */}
+    <Navigation />
     <Routes>
                       {/* <Route path="/" element={<Home />} />
                       <Route path="/about" element={<About />} />
