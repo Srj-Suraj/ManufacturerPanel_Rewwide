@@ -19,12 +19,6 @@
     }
   ],
 
-  "hosting":{
-    "public":"build"
-  },
-
-
-  "homepage": "https://srj-suraj.github.io/affiliate_rewwide/",
   "start_url": ".",
   "display": "standalone",
   "theme_color": "#000000",
