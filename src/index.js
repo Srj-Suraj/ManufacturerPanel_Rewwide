@@ -22,20 +22,19 @@ import Revenue from './Revenue/Revenue';
 
 ReactDOM.render(
   <Router basename="/">
-    {/* <SideBar/> <NavBar/>  */}
     <Login/>
     <Routes>
-          {/* <Route path="/" exact element={ <Login/> } /> 
-          <Route path="/login" element={ <Login/>  }   /> 
-          <Route path="/register" element={  <Register/>  }   />  */}
+          <Route path="/" exact element={<> <Login/> </> }   /> 
+          <Route path="/login" element={<> <Login/>  </> }   /> 
+          <Route path="/register" element={<>  <Register/>  </> }   /> 
 
-          <Route path="/" exact element={ <Dashboard/> }   /> 
-          <Route path="/dashboard" element={ <Dashboard/> }   /> 
-          <Route path="/all-category" element={ <AllCategory/> }   /> 
-          <Route path="/products" element={ <Products/> }   /> 
-          <Route path="/transactions" element={ <Transactions/> }   /> 
-          <Route path="/profile-setting" element={ <ProfileSetting/> }   /> 
-          <Route path="/revenue" element={ <Revenue/> }   /> 
+          <Route path="/" exact element={<><SideBar/> <NavBar/> <Dashboard/> </> }   /> 
+          <Route path="/dashboard" element={<><SideBar/> <NavBar/> <Dashboard/> </> }   /> 
+          <Route path="/all-category" element={<><SideBar/> <NavBar/> <AllCategory/> </> }   /> 
+          <Route path="/products" element={<><SideBar/> <NavBar/> <Products/> </> }   /> 
+          <Route path="/transactions" element={<><SideBar/> <NavBar/> <Transactions/> </> }   /> 
+          <Route path="/profile-setting" element={<><SideBar/> <NavBar/> <ProfileSetting/> </> }   /> 
+          <Route path="/revenue" element={<><SideBar/> <NavBar/> <Revenue/> </> }   /> 
                   
     </Routes>
     
