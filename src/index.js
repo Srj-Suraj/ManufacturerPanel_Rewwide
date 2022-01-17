@@ -22,7 +22,8 @@ import Revenue from './Revenue/Revenue';
 
 ReactDOM.render(
   <Router basename="/">
-    <SideBar/> <NavBar/> 
+    {/* <SideBar/> <NavBar/>  */}
+    <Login/>
     <Routes>
           {/* <Route path="/" exact element={ <Login/> } /> 
           <Route path="/login" element={ <Login/>  }   /> 
