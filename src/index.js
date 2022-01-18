@@ -19,6 +19,8 @@ import Transactions from './Transactions/Transactions';
 import ProfileSetting from './ProfileSetting/ProfileSetting';
 import Dashboard from './Dashboard/Dashboard';
 import Revenue from './Revenue/Revenue';
+import Sales from './Sales/Sales';
+import Wallet from './Wallet/Wallet';
 
 ReactDOM.render(
   <Router basename="/">
@@ -35,6 +37,8 @@ ReactDOM.render(
           <Route path="/transactions" element={<><SideBar/> <NavBar/> <Transactions/> </> }   /> 
           <Route path="/profile-setting" element={<><SideBar/> <NavBar/> <ProfileSetting/> </> }   /> 
           <Route path="/revenue" element={<><SideBar/> <NavBar/> <Revenue/> </> }   /> 
+          <Route path="/sales" element={<><SideBar/> <NavBar/> <Sales/> </> }   /> 
+          <Route path="/wallet" element={<><SideBar/> <NavBar/> <Wallet/> </> }   /> 
                   
     </Routes>
     

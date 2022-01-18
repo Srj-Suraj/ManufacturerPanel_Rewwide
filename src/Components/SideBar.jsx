@@ -42,13 +42,13 @@ export default function SideBar(){
       </Link>
     </li>
     <li>
-      <Link to="" >
+      <Link to="/sales" >
         <i className="fa fa-line-chart " />
         Sales
       </Link>
     </li>
     <li>
-      <Link to="" >
+      <Link to="/wallet" >
         <i className="fa fa-credit-card" />
         Wallet
       </Link>

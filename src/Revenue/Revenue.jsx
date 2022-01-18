@@ -37,7 +37,7 @@ export default function Revenue(){
                     Monthly
                 </div>
                 <div className="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                    <div  className="dropdown-item btn" >Daily</div>
+                    
                     <div  className="dropdown-item btn" >Weekly</div>
                     <div  className="dropdown-item btn" >Yearly</div>
                 </div>
@@ -69,7 +69,7 @@ export default function Revenue(){
                     Monthly
                 </div>
                 <div className="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                    <div  className="dropdown-item btn" >Daily</div>
+                    
                     <div  className="dropdown-item btn" >Weekly</div>
                     <div  className="dropdown-item btn" >Yearly</div>
                 </div>
