@@ -1,7 +1,7 @@
 {
-  "homepage": "https://srj-suraj.github.io/affiliate_rewwide/",
+  "homepage": "https://srj-suraj.github.io/ManufacturerPanel_Rewwide/",
   "start_url": ".",
-  "name": "pro2",
+  "name": "manufacturer_panel",
   "version": "0.1.0",
   "private": false,
   "dependencies": {

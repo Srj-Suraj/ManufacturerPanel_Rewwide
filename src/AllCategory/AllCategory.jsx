@@ -25,7 +25,7 @@ export default function AllCategory(){
             <i className='fa fa-upload mr-3'/>Upload
             </Link> 
 
-            <Link  to='' className="btn btn-primary mr-3  ">
+            <Link  to='/add-category' className="btn btn-primary mr-3  ">
             <i className='fa fa-plus mr-3'/>Add Category
             </Link> 
                         

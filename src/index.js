@@ -14,6 +14,7 @@ import SideBar from './Components/SideBar';
 import NavBar from './Components/NavBar';
 // pages
 import AllCategory from './AllCategory/AllCategory';
+import AddCategory from './AddCategory/AddCategory';
 import Products from './Products/Products';
 import Transactions from './Transactions/Transactions';
 import ProfileSetting from './ProfileSetting/ProfileSetting';
@@ -33,6 +34,7 @@ ReactDOM.render(
           <Route path="/" exact element={<><SideBar/> <NavBar/> <Dashboard/> </> }   /> 
           <Route path="/dashboard" element={<><SideBar/> <NavBar/> <Dashboard/> </> }   /> 
           <Route path="/all-category" element={<><SideBar/> <NavBar/> <AllCategory/> </> }   /> 
+          <Route path="/add-category" element={<><SideBar/> <NavBar/> <AddCategory/> </> }   /> 
           <Route path="/products" element={<><SideBar/> <NavBar/> <Products/> </> }   /> 
           <Route path="/transactions" element={<><SideBar/> <NavBar/> <Transactions/> </> }   /> 
           <Route path="/profile-setting" element={<><SideBar/> <NavBar/> <ProfileSetting/> </> }   /> 

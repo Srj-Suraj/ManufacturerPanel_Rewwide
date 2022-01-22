@@ -21,7 +21,7 @@ function Dashboard(){
 <div className="container" >
 
 <div className="col-md-12 d-flex ">
-            <p className="btn table-title mr-auto ">Affiliate Dashboard </p>
+            {/* <p className="btn table-title mr-auto ">Dashboard </p> */}
 
             {/* <Link  to='' className="btn btn-primary mr-3  ">
             <i className=''/>Sales
